@@ -28,13 +28,18 @@ threshold of infected people per event and then increase the sampling efforts to
 infected people who attended the event.
 
 The analysis showed in the blog, suggest that the differences in the attendance sizes between different types
- of events, such as weddings and restaurants events like brunches, has a significant impact on the outcome of the contact tracing process.
+ of events, such as weddings and restaurants events like brunches, has a significant impact on the outcome
+of the contact tracing process.
 A wedding with 100 attendees would have higher chances of detecting more than two infected people leading to
-applying the secondary contact tracing method increasing the number of infected people traced in weddings compared to brunches. The probability of having more than one traced infected people during a brunch event with 10 attendees is much lower, therefore, the secondary contact tracing procedure is not applied reducing the number of infected people traced in brunches compared to weddings. 
+applying the secondary contact tracing method increasing the number of infected people traced in weddings
+compared to brunches. The probability of having more than one traced infected people during a brunch event
+with 10 attendees is much lower, therefore, the secondary contact tracing procedure is not applied reducing
+the number of infected people traced in brunches compared to weddings. 
 
 ## Does the code appear to reproduce the graphs from the original blog post? 
 No, In this case both distributions (Infected vs Traced) had a proportion around 20%, which is the expected
-proportion given the constant infection rate of 10% and a total population of 1000 people where 200 people attended a wedding event. In the distribution of the Python script, we notice a small sub distribution of
+proportion given the constant infection rate of 10% and a total population of 1000 people where 200 people
+attended a wedding event. In the distribution of the Python script, we notice a small sub distribution of
 cases where the proportion is between 0 and 5 %, while in the blog post the proportion of traced infections
 is more spreaded to higher proportions. 
 
